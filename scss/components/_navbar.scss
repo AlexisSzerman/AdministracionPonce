@@ -1,19 +1,29 @@
+@import '../base/lists';
 
 
-#logo {
-    width: 8%;
-    padding-bottom: .5rem;
-    margin-right: 0.5rem;
+.navbarbar {
+    background-color: nth($colors, 4);
+    
+    #logo {
+        width: 8%;
+        padding-bottom: .5rem;
+        margin-right: 0.5rem;
+    }
+    
+    .nav-a {
+        color: nth($colors, 2);
+        font-size: 1.2rem;
+    }
+    
+    .navbar-nav .nav-link.active {
+        color: nth($colors, 3);
+        font-size: 1.2rem;
+    }
+
+
 }
 
 
-/* .navb{ 
-    margin: 0;
-    padding: 0;
-} 
 
-.navb2 {
-    margin: 0;
-    padding: 0;
-} */
+
 
