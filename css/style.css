@@ -50,4 +50,22 @@ body {
   background-size: contain;
 }
 
+.side-buttons {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 80rem;
+  margin-top: 15rem;
+  position: fixed;
+  z-index: 1;
+}
+.side-buttons #elevator {
+  width: 2.5rem;
+  background-color: #9EB23B;
+  margin-bottom: 0.5rem;
+}
+.side-buttons .logo-wpp {
+  color: #9EB23B;
+  font-size: 3rem;
+}
+
 /*# sourceMappingURL=style.css.map */
