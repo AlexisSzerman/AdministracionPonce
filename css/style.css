@@ -33,7 +33,10 @@ body {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: contain;
-  margin-top: 5rem;
+  /* .carda {
+
+
+   }*/
 }
 
 #referencias {
@@ -53,19 +56,30 @@ body {
 .side-buttons {
   display: grid;
   grid-template-columns: 1fr;
-  margin-left: 80rem;
-  margin-top: 15rem;
+  margin-left: 50%;
+  margin-top: 15%;
   position: fixed;
   z-index: 1;
 }
 .side-buttons #elevator {
   width: 2.5rem;
   background-color: #9EB23B;
-  margin-bottom: 0.5rem;
+  position: fixed;
+  bottom: 100px;
+  right: 40px;
+  z-index: 100;
 }
 .side-buttons .logo-wpp {
   color: #9EB23B;
   font-size: 3rem;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 100;
+}
+
+#inicio #nombre {
+  margin-top: 8rem;
 }
 
 /*# sourceMappingURL=style.css.map */
