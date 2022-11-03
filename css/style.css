@@ -63,7 +63,7 @@ body {
 }
 .side-buttons #elevator {
   width: 2.5rem;
-  background-color: #9EB23B;
+  /*  background-color: nth($colors, 4); */
   position: fixed;
   bottom: 100px;
   right: 40px;
